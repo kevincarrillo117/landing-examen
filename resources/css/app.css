@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .bg-gradient-custom {
+    background-image: linear-gradient(0deg, rgba(1,40,88,0.996) 0%, rgba(1,62,119,0.997) 23%, rgba(1,45,95,1) 66%, rgba(1,45,94,1) 71%, rgba(0,33,68,1) 100%);
+    opacity: 0.741;
+  } */
+.bg-custom {
+    background-image:
+        linear-gradient(0deg, rgba(1, 40, 88, 0.74) 0%, rgba(1, 62, 119, 0.74) 23%, rgba(1, 45, 95, 0.74) 66%, rgba(1, 45, 94, 0.74) 71%, rgba(0, 33, 68, 0.74) 100%),
+        url('/public/img/Capa-9.png');
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+    .imagen-enfermeros {
+        display: none;
+    }
+
+    .bg-custom::after {
+        height: 150px;
+        /* Altura reducida en móviles */
+    }
+}
