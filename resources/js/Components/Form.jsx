@@ -3,6 +3,7 @@ import Checkbox from "./Checkbox";
 
 const translations = {
     es: {
+        title:"HOLA ESTE ES UN TITULO",
         datos: "TUS DATOS",
         nombre: "Nombre",
         telefono: "Teléfono",
@@ -19,6 +20,7 @@ const translations = {
         }
     },
     en: {
+        title:"HOLA ESTE ES UN TITULO",
         datos: "YOUR INFORMATION",
         nombre: "Name",
         telefono: "Phone",
